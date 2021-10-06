@@ -27,6 +27,14 @@ html {
     font-family: monospace;
 }
 
+.let-spac {
+    letter-spacing: 4px;
+}
+
+.opa {
+    opacity: 0.7;
+}
+
 /*header*/
 #header {
     background-color: #000;
@@ -128,22 +136,38 @@ html {
     padding-bottom: 50px;
 }
 
+/*kết thúc slider */
+
 #content {
     min-height: 2000px;
-}
-
-#content .section-bcolor {
-    background-color: #000;
 }
 
 #content .section-content {
     
 }
 
-#content .section-text {
-    text-align: center;
-    width: 45%;
+#content .section-bcolor {
+    background-color: #000;
 }
+
+#content .section-text {
+    width: 40%;
+    text-align: justify;
+    padding: 32px;
+    margin: 0px 64px;
+    display: inline-block;
+}
+
+#content .section-subhead {
+    font-size: 12px;
+    padding: 16px 0px;
+}
+
+#content .section-body {
+    font-size: 15px ;
+    line-height: 30px;
+}
+
 
 /* Đây là footer
 #footer {
