@@ -35,6 +35,14 @@ html {
     opacity: 0.7;
 }
 
+.clear {
+    clear: both;
+}
+
+.padding-1 {
+    padding: 32px;
+}
+
 /*header*/
 #header {
     background-color: #000;
@@ -143,7 +151,7 @@ html {
 }
 
 #content .section-content {
-    
+
 }
 
 #content .section-bcolor {
@@ -151,11 +159,12 @@ html {
 }
 
 #content .section-text {
-    width: 40%;
+    width: 45%;
+    float: left;
     text-align: justify;
-    padding: 32px;
-    margin: 0px 64px;
-    display: inline-block;
+    display: block;
+    margin-left: 7%;
+    margin-bottom: 32px;
 }
 
 #content .section-head {
@@ -171,6 +180,15 @@ html {
 #content .section-body {
     font-size: 15px ;
     line-height: 30px;
+}
+
+#content .section-img {
+    margin-right: 7%;
+}
+
+#content .section-img img {
+    float: right;
+    border-radius: 10px;
 }
 
 
