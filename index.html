@@ -15,17 +15,17 @@
             <!--Đây là navigator-->
             <ul id="nav">
                 <li><a class="text-white line-h-40px" href="">Home</a></li>
-                <li><a class="text-white line-h-40px" href="">About Me</a></li>
+                <li><a class="text-white line-h-40px" href="#about-me">About Me</a></li>
 
                 <li><a class="text-white line-h-40px" href="">
-                    Skills
+                    Interest
                     <i class="nav-down ti-angle-down"></i>
                 </a>
                     <!--subnav 1-->
                     <ul class="sub-nav">
-                        <li><a href="">Html & Css</a></li>
-                        <li><a href="">JavaScript</a></li>
-                        <li><a href="">ReactJS</a></li>
+                        <li><a href="">Cooking</a></li>
+                        <li><a href="">Crafting</a></li>
+                        <li><a href="">Boxing</a></li>
                     </ul>
                 </li>
 
@@ -35,8 +35,7 @@
                 </a>
                     <!--subnav 2-->
                     <ul class="sub-nav">
-                        <li><a target="_blank" href="">
-                            Me</a></li>
+                        <li><a href="#">Me</a></li>
                         <li><a target="_blank" href="https://avocado2108.github.io/w3-band2/">
                             The Band</a></li>
                         <li><a target="_blank" href="">
@@ -59,7 +58,7 @@
         <div id="slider">
             <!--slider media-->
             <div class="media">
-                <audio class="media-control" controls>
+                <audio class="media-control" controls auto/play>
                     <source src="./assets/media/10nam-Denft.NgocLinh.ogg" type="audio/ogg">
                     <source src="./assets/media/10nam-Denft.NgocLinh.mpeg" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -75,27 +74,42 @@
         <!--CONTENT-->
         <div id="content">
             <div class="section-bcolor"> <!--tạo background đen-->
-                <div id="section-content">
+                <div id="about-me" id="section-content">
                     <div class="padding-1 text-white section-text">
-                        <H1 class="let-spac section-head">Who am I???</H1>
+                        <H1 class="let-spac section-head">Who am I</H1>
                         <p class="opa slogan-font section-subhead">
                             I am Thanh,
                             <br>
                             And there is some things about ME.
                         </p>
-                        <p class="slogan-font section-body">
+                        <p class="wid slogan-font section-body">
                             Everybody has a plan for future. Though future is uncertain and many times unpredictable, I believe that to some extent our future depends on our actions on past and present.
                             <br>
                             In the future, I want to run a mega shopping mall business where my involvement would not be mandatory to run the daily business and I would enjoy my time by visiting different places of the world.
                         </p>
+                        <div class="wid section-img">
+                            <img src="./assets/img/about-me/me2.jpg" alt="Me">
+                        </div>
                     </div>
   
-                    <div class="padding-1 section-img">
-                        <img src="./assets/img/about-me/me2.jpg" alt="Me">
-                    </div>
                 </div>
                 <div class="clear"></div> <!--để background đen ôm trọn khối section aboutme-->
             </div>
+
+            <div id="interest" id="section-content">
+                <div class="padding-1 section-text">
+                    <H1 class="let-spac section-head">My Intersert</H1>
+                    <p class="slogan-font section-subhead">
+                        Cooking - Crafting - Boxing.
+                    </p>
+                    <p class="slogan-font section-body">
+                        Everybody has a plan for future. Though future is uncertain and many times unpredictable, I believe that to some extent our future depends on our actions on past and present.
+                        <br>
+                        In the future, I want to run a mega shopping mall business where my involvement would not be mandatory to run the daily business and I would enjoy my time by visiting different places of the world.
+                    </p>
+                </div>
+            </div>    
+
         </div>
 
         <!--FOOTER-->
