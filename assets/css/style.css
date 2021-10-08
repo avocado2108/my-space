@@ -48,6 +48,10 @@ html {
     width: 45%;
 }
 
+.float-r {
+    float: right;
+}
+
 /*header*/
 #header {
     background-color: #000;
@@ -186,14 +190,13 @@ html {
 }
 
 #content .section-body {
-    font-size: 15px ;
-    line-height: 30px;
+    line-height: 24px;
     display: inline-block;
 }
 
 #content .section-img {
+    align-items: center;
     display: inline-block;
-    float: right;
 }
 
 #content .section-img img {
@@ -203,6 +206,30 @@ html {
     padding: 10px;
 }
 
+#slideshow {
+    display: inline;
+    height: 240px;
+    width: 240px;
+    margin: 0px auto;
+}
+/*
+.slide-wrapper {
+    width: 1291px;
+    -webkit-animation: slide 15s ease infinite;
+}
+.slide {
+    float: left;
+    height: 240px;
+    width: 240px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    80% {margin-left: -1456px;}
+}
+*/
 
 /* Đây là footer
 #footer {
