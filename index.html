@@ -17,15 +17,15 @@
                 <li><a class="text-white line-h-40px" href="">Home</a></li>
                 <li><a class="text-white line-h-40px" href="#about-me">About Me</a></li>
 
-                <li><a class="text-white line-h-40px" href="_interest">
+                <li><a class="text-white line-h-40px" href="#interest">
                     Interest
                     <i class="nav-down ti-angle-down"></i>
                 </a>
                     <!--subnav 1-->
                     <ul class="sub-nav">
-                        <li><a href="">Cooking</a></li>
-                        <li><a href="">Crafting</a></li>
-                        <li><a href="">Boxing</a></li>
+                        <li><a href="#cooking">Cooking</a></li>
+                        <li><a href="#drawing">Drawing</a></li>
+                        <li><a href="#boxing">Boxing</a></li>
                     </ul>
                 </li>
 
@@ -58,7 +58,7 @@
         <div id="slider">
             <!--slider media-->
             <div class="media">
-                <audio class="media-control" controls autoplay>
+                <audio class="media-control" controls auto/play>
                     <source src="./assets/media/10nam-Denft.NgocLinh.ogg" type="audio/ogg">
                     <source src="./assets/media/10nam-Denft.NgocLinh.mpeg" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -73,6 +73,7 @@
 
         <!--CONTENT-->
         <div id="content">
+            <!--ABOUTME-->
             <div class="section-bcolor"> <!--tạo background đen-->
                 <div id="about-me" id="section-content">
                     <div class="padding-1 text-white section-text">
@@ -80,7 +81,7 @@
                         <p class="opa slogan-font section-subhead">
                             Tôi là Thành
                             <br>
-                            Và đây là vài điều đơn giản về TÔI.
+                            Và đây là vài điều đơn giản về TÔI. 
                         </p>
                         <p class="wid slogan-font section-body">
                             Hầu hết mọi người đều có kế hoạch cho tương lai. 
@@ -98,34 +99,54 @@
                 </div>
                 <div class="clear"></div> <!--để background đen ôm trọn khối section aboutme-->
             </div>
-
+            <!--END-->
+            <!--INTEREST-->
             <div id="interest" id="section-content">
                 <div class="padding-1 section-text">
                     <H1 class="let-spac section-head">My Intersert</H1>
                     <p class="slogan-font section-subhead">
                         Cooking - Crafting - Boxing.
                     </p>
-                    <p class="slogan-font section-body">
-                        Nấu ăn: là một người thích ăn ngon, tôi coi việc nấu ăn là một sự tận hưởng. Thường tôi sẽ tham khảo công thức cơ bản từ Mẹ hoặc các website dạy nấu ăn. 
-                        <br><br>
-                        Chế tác: tôi thấy tò mò khi xem các chương trình chế tạo trên tivi, từ đó tôi bắt đầu làm một số đồ chơi thủ công khi rảnh rỗi. Hiện tại tôi đã có một chút kỹ năng nho nhỏ trong chế tác.
-                        <br><br>
-                        Boxing: thể thao giúp tôi giảm cân, tôi chọn boxing vì đây là môn thể thao đề cao tập trung, sức mạnh, tốc độ và sự linh hoạt. 
-                    </p>
-                    <!--
-                    <div id="slideshow">
-                        <div class="slide-wrapper">
-                            <div class="section-img">
-                            <div class="slide"><img src="./assets/img/intersets/cooking/bamy1.jpg" alt=""></div>
-                            <div class="slide"><img src="./assets/img/intersets/cooking/bamy2.jpg" alt=""></div>
-                            <div class="slide"><img src="./assets/img/intersets/cooking/bamy3.jpg" alt=""></div>
-                            </div>
+
+                <div class="-margin interest-item">
+                    <!--COOKING-->
+                    <div id="cooking" class="padding-2 wid-2 slogan-font section-body">
+                        <h2 class="body-head">Nấu Ăn</h2>
+                        <p class="body-subhead">Với tôi, nấu ăn là một quá trình tận hưởng.
+                            Tôi thường tham khảo công thức cơ bản từ Mẹ hoặc các website dạy nấu ăn.
+                            Sau đó thử nghiệm theo nhiều cách.
+                        </p>
+                        <div class="body-img">
+                            <img src="./assets/img/intersets/cooking/coat-cake.jpg" alt="banh-my-yen-mach">
                         </div>
                     </div>
-                    -->
 
+                    <!--CRAFTING-->
+                    <div id="drawing" class="padding-2 wid-2 slogan-font section-body">
+                        <h2 class="body-head">Vẽ</h2>
+                        <p class="body-subhead">Tôi tò mò và bị hấp dẫn bởi vẻ đẹp của các họa tiết Mandala.
+                            Khoảng 2018, khi nghỉ bệnh, tôi đã vẽ một vài bức hình khá ưng ý. 
+                            Hiện tại khi có chút thời gian tôi vẫn vẽ. 
+                        </p>
+                        <div class="body-img">
+                            <img src="./assets/img/intersets/drawing/draw1.jpg" alt="drawing1">
+                        </div>
+                    </div>
+
+                    <!--BOXING-->
+                    <div id="boxing" class="padding-2 wid-2 slogan-font section-body">
+                        <h2 class="body-head">Boxing</h2>
+                        <p class="body-subhead">Thể thao giúp tôi giảm cân và Boxing là bộ môn ưa thích của tôi.
+                            Tôi chọn boxing vì đây là môn thể thao đề cao tập trung, sức mạnh, tốc độ và sự linh hoạt. 
+                        </p>
+                        <div class="body-img">
+                            <img src="./assets/img/intersets/boxing/boxing.jpg" alt="boxing1">
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>    
+            <!--END-->
 
         </div>
 

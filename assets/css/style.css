@@ -44,8 +44,21 @@ html {
     padding: 32px;
 }
 
+.-margin {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.padding-2 {
+    padding: 8px;
+}
+
 .wid {
     width: 45%;
+}
+
+.wid-2 {
+    width: calc(100%/3.05);
 }
 
 .float-r {
@@ -206,30 +219,14 @@ html {
     padding: 10px;
 }
 
-#slideshow {
-    display: inline;
-    height: 240px;
-    width: 240px;
-    margin: 0px auto;
+#content .body-img img {
+    width: 100%;
+    padding: 16px 0px;
 }
-/*
-.slide-wrapper {
-    width: 1291px;
-    -webkit-animation: slide 15s ease infinite;
+
+#content .body-head {
+    padding-bottom: 12px;
 }
-.slide {
-    float: left;
-    height: 240px;
-    width: 240px;
-}
-@-webkit-keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    80% {margin-left: -1456px;}
-}
-*/
 
 /* Đây là footer
 #footer {
